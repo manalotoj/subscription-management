@@ -9,6 +9,9 @@ This repo contains Azure policy definitions and PowerShell functions to:
 ### Storage_ResourceLock.json
 Policy definition can be used to apply **CanNotDelete** lock type on storage accounts and ADLS accounts via policy remediation. When remediation is defined using the same policy, a resource lock is created if it does not already exist.
 
+### Policy to Deny creation of storage accounts that do not have soft delete enabled
+TODO
+
 ### How to use the policy
 1. Create a policy definition
 - Within the Azure portal, search for * Policy *
